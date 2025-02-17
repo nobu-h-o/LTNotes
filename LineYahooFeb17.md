@@ -12,6 +12,20 @@ ts-types
 deno.json
 import map
 で綺麗に書ける
+
+Deno内で自動化しようという流れがある。
+
+### Denoの型と環境
+DenoはデフォルトでDeno環境でinfer
+だが、deno.jsonを変えるとプロジェクト全体に影響しちゃう
+If front and back are on the same repo, it wasnt easy to make it work correctly
+
+deno2.4 made it possible to make different deno.json files
+use
+deno upgrade --canary
+to get the latest version
+
+
 ## LINEスキマニのフロントエンド開発にDenoを採用した理由
 ## Honoをフロントエンドで使う3つのやり方
 ## 次世代ランタイム×フロントエンドの将来性（パネルディスカッション ）
