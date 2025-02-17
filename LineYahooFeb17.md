@@ -42,5 +42,18 @@ command to format css html files
 
 
 ## LINEスキマニのフロントエンド開発にDenoを採用した理由
+kazushikonosuさん@kazushikonosu
+### なぜDenoを採用したか
+LINEスキマニでは技術選定ミニマムなソリューションが多い。(依存しない)
+ロックインされる。技術トレンドに乗れない。
+最近のトレンドhono、ミニマムなライブラリが好まれることが多い
+Nextjs→Vite
+サーバーっでNodejs以外を検討するのが楽になった
+
+Nodejs環境構築、だるくね？
+tsconfig.jsonやts-node
+
+### 活用法
+### 振り返り
 ## Honoをフロントエンドで使う3つのやり方
 ## 次世代ランタイム×フロントエンドの将来性（パネルディスカッション ）
