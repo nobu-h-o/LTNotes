@@ -52,8 +52,21 @@ Nextjs→Vite
 
 Nodejs環境構築、だるくね？
 tsconfig.jsonやts-node
+Linter
+
+Denoは
+Web標準に準拠する
+future-proof
+「できないこと」が多いのはいいこと
 
 ### 活用法
+Nodejsの互換として使ってない
+package.jsonなしでdeno.json使ってる  
+フロントエンドはDeno上で実行してる
+
 ### 振り返り
+フロント開発環境のセットアップがシンプルになった  
+tsの設定をDenoに任せられた  
+コードのランタイムとして魅力的な
 ## Honoをフロントエンドで使う3つのやり方
 ## 次世代ランタイム×フロントエンドの将来性（パネルディスカッション ）
